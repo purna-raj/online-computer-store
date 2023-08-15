@@ -95,6 +95,10 @@ include('functions/common_function.php');
     <?php
     //calling functions
     getproducts();
+    getIPAddress();
+    cart();
+    // $ip = getIPAddress();  
+    // echo 'User Real IP Address - '.$ip;
     ?>
       
 <!--Row end-->
